@@ -37,5 +37,5 @@ fig.update_layout(
 graph_html = fig.to_html(full_html=False)
 
 # Save the graph HTML to a file
-with open("stock_and_oil_graph.html", "w") as file:
+with open("index.html", "w") as file:
     file.write(graph_html)
